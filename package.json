@@ -4,7 +4,7 @@
   "description": "A strophe.js plugin for file upload using HTTP File Upload (XEP-0363)",
   "main": "lib/strophe.http-file-upload.js",
   "scripts": {
-    "build": "rollup src/strophe.http-file-upload.js -f umd -g strophe.js:window -e strophejs-plugin-rsm -o lib/strophe.http-file-upload.js -m",
+    "build": "rollup src/strophe.http-file-upload.js -f umd -g src/assets/strophe.umd.min.js:window -e strophejs-plugin-rsm -o lib/strophe.http-file-upload.js -m",
     "prepublish": "npm run --silent build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
